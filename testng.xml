@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nop-Commerce-Project">
+    <parameter name="browser" value=""/>
+
+    <suite-files>
+        <suite-file path="Sprint1_Chrome_.xml"/>
+        <suite-file path="Sprint1_Firefox_.xml"/>
+        <suite-file path="Sprint2_Chrome_.xml"/>
+        <suite-file path="Sprint2_Firefox_.xml"/>
+    </suite-files>
+</suite>

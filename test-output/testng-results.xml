@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-11T11:26:47 EEST" name="Nop-Commerce Project" finished-at="2024-06-11T11:29:56 EEST" duration-ms="189170">
+    <groups>
+    </groups>
+    <test started-at="2024-06-11T11:26:47 EEST" name="SC7-Select Book Category" finished-at="2024-06-11T11:27:12 EEST" duration-ms="25026">
+      <class name="testcases.TC05_Category">
+        <test-method signature="ChooseCategory()[pri:1, instance:testcases.TC05_Category@55182842]" started-at="2024-06-11T11:27:03 EEST" name="ChooseCategory" description="Select Book Category" finished-at="2024-06-11T11:27:06 EEST" duration-ms="3531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseCategory -->
+      </class> <!-- testcases.TC05_Category -->
+      <class name="testcases.TC02_Registration">
+        <test-method signature="registerNewUserWithValidData_P()[pri:1, instance:testcases.TC02_Registration@55141def]" started-at="2024-06-11T11:26:59 EEST" name="registerNewUserWithValidData_P" description="Register New User With Valid Data" finished-at="2024-06-11T11:27:03 EEST" duration-ms="4104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserWithValidData_P -->
+      </class> <!-- testcases.TC02_Registration -->
+      <class name="testcases.TC07_SelectCertainBook">
+        <test-method signature="selectBook()[pri:1, instance:testcases.TC07_SelectCertainBook@3270d194]" started-at="2024-06-11T11:27:06 EEST" name="selectBook" description="Select Book " finished-at="2024-06-11T11:27:11 EEST" duration-ms="5107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBook -->
+      </class> <!-- testcases.TC07_SelectCertainBook -->
+      <class name="testcases.TC0_HomePage">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC0_HomePage@4c583ecf]" started-at="2024-06-11T11:26:47 EEST" name="setupDriver" finished-at="2024-06-11T11:26:54 EEST" duration-ms="7593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="CheckRegisterLinks()[pri:2, instance:testcases.TC0_HomePage@4c583ecf]" started-at="2024-06-11T11:26:54 EEST" name="CheckRegisterLinks" description="Check Register Links " finished-at="2024-06-11T11:26:59 EEST" duration-ms="4304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRegisterLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC0_HomePage@4c583ecf]" started-at="2024-06-11T11:27:11 EEST" name="tearDown" finished-at="2024-06-11T11:27:12 EEST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC0_HomePage -->
+    </test> <!-- SC7-Select Book Category -->
+    <test started-at="2024-06-11T11:27:12 EEST" name="SC8 - Add to wishlist" finished-at="2024-06-11T11:27:34 EEST" duration-ms="21742">
+      <class name="testcases.TC05_Category">
+        <test-method signature="ChooseCategory()[pri:1, instance:testcases.TC05_Category@6743e411]" started-at="2024-06-11T11:27:22 EEST" name="ChooseCategory" description="Select Book Category" finished-at="2024-06-11T11:27:26 EEST" duration-ms="3637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseCategory -->
+      </class> <!-- testcases.TC05_Category -->
+      <class name="testcases.TC08_AddToWishList">
+        <test-method signature="checkAddWishList()[pri:1, instance:testcases.TC08_AddToWishList@477b4cdf]" started-at="2024-06-11T11:27:31 EEST" name="checkAddWishList" description="Login to System with Valid Data" finished-at="2024-06-11T11:27:33 EEST" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddWishList -->
+      </class> <!-- testcases.TC08_AddToWishList -->
+      <class name="testcases.TC01_Login">
+        <test-method signature="LoginPageWithValidData_P()[pri:1, instance:testcases.TC01_Login@662ac478]" started-at="2024-06-11T11:27:19 EEST" name="LoginPageWithValidData_P" description="Check Login Page With Valid Data" finished-at="2024-06-11T11:27:22 EEST" duration-ms="3592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageWithValidData_P -->
+      </class> <!-- testcases.TC01_Login -->
+      <class name="testcases.TC07_SelectCertainBook">
+        <test-method signature="selectBook()[pri:1, instance:testcases.TC07_SelectCertainBook@3eb25e1a]" started-at="2024-06-11T11:27:26 EEST" name="selectBook" description="Select Book " finished-at="2024-06-11T11:27:31 EEST" duration-ms="5134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBook -->
+      </class> <!-- testcases.TC07_SelectCertainBook -->
+      <class name="testcases.TC0_HomePage">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC0_HomePage@31190526]" started-at="2024-06-11T11:27:12 EEST" name="setupDriver" finished-at="2024-06-11T11:27:15 EEST" duration-ms="3029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="CheckLoginLinks()[pri:1, instance:testcases.TC0_HomePage@31190526]" started-at="2024-06-11T11:27:15 EEST" name="CheckLoginLinks" description="Check Login Links " finished-at="2024-06-11T11:27:19 EEST" duration-ms="3975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC0_HomePage@31190526]" started-at="2024-06-11T11:27:33 EEST" name="tearDown" finished-at="2024-06-11T11:27:34 EEST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC0_HomePage -->
+    </test> <!-- SC8 - Add to wishlist -->
+    <test started-at="2024-06-11T11:27:34 EEST" name="SC9 - Add to Cart" finished-at="2024-06-11T11:27:57 EEST" duration-ms="23341">
+      <class name="testcases.TC09_AddToCart">
+        <test-method signature="AddToCard()[pri:1, instance:testcases.TC09_AddToCart@6f03482]" started-at="2024-06-11T11:27:53 EEST" name="AddToCard" description="Add to cart" finished-at="2024-06-11T11:27:57 EEST" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCard -->
+      </class> <!-- testcases.TC09_AddToCart -->
+      <class name="testcases.TC05_Category">
+        <test-method signature="ChooseCategory()[pri:1, instance:testcases.TC05_Category@1e800aaa]" started-at="2024-06-11T11:27:44 EEST" name="ChooseCategory" description="Select Book Category" finished-at="2024-06-11T11:27:47 EEST" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseCategory -->
+      </class> <!-- testcases.TC05_Category -->
+      <class name="testcases.TC01_Login">
+        <test-method signature="LoginPageWithValidData_P()[pri:1, instance:testcases.TC01_Login@5bda8e08]" started-at="2024-06-11T11:27:41 EEST" name="LoginPageWithValidData_P" description="Check Login Page With Valid Data" finished-at="2024-06-11T11:27:44 EEST" duration-ms="3573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageWithValidData_P -->
+      </class> <!-- testcases.TC01_Login -->
+      <class name="testcases.TC07_SelectCertainBook">
+        <test-method signature="selectBook()[pri:1, instance:testcases.TC07_SelectCertainBook@185a6e9]" started-at="2024-06-11T11:27:47 EEST" name="selectBook" description="Select Book " finished-at="2024-06-11T11:27:53 EEST" duration-ms="5151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBook -->
+      </class> <!-- testcases.TC07_SelectCertainBook -->
+      <class name="testcases.TC0_HomePage">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC0_HomePage@3eb738bb]" started-at="2024-06-11T11:27:34 EEST" name="setupDriver" finished-at="2024-06-11T11:27:37 EEST" duration-ms="2982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="CheckLoginLinks()[pri:1, instance:testcases.TC0_HomePage@3eb738bb]" started-at="2024-06-11T11:27:37 EEST" name="CheckLoginLinks" description="Check Login Links " finished-at="2024-06-11T11:27:41 EEST" duration-ms="3979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC0_HomePage@3eb738bb]" started-at="2024-06-11T11:27:57 EEST" name="tearDown" finished-at="2024-06-11T11:27:57 EEST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC0_HomePage -->
+    </test> <!-- SC9 - Add to Cart -->
+    <test started-at="2024-06-11T11:27:57 EEST" name="SC10 - Shopping Page" finished-at="2024-06-11T11:28:18 EEST" duration-ms="21083">
+      <class name="testcases.TC01_Login">
+        <test-method signature="LoginPageWithValidData_P()[pri:1, instance:testcases.TC01_Login@7eac9008]" started-at="2024-06-11T11:28:04 EEST" name="LoginPageWithValidData_P" description="Check Login Page With Valid Data" finished-at="2024-06-11T11:28:07 EEST" duration-ms="3570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageWithValidData_P -->
+      </class> <!-- testcases.TC01_Login -->
+      <class name="testcases.TC0_HomePage">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC0_HomePage@1fa121e2]" started-at="2024-06-11T11:27:57 EEST" name="setupDriver" finished-at="2024-06-11T11:28:00 EEST" duration-ms="2860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="CheckLoginLinks()[pri:1, instance:testcases.TC0_HomePage@1fa121e2]" started-at="2024-06-11T11:28:00 EEST" name="CheckLoginLinks" description="Check Login Links " finished-at="2024-06-11T11:28:04 EEST" duration-ms="3964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC0_HomePage@1fa121e2]" started-at="2024-06-11T11:28:18 EEST" name="tearDown" finished-at="2024-06-11T11:28:18 EEST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC0_HomePage -->
+      <class name="testcases.TC10_ShoppingCartPage">
+        <test-method signature="ClickShoppingCart()[pri:1, instance:testcases.TC10_ShoppingCartPage@4116aac9]" started-at="2024-06-11T11:28:07 EEST" name="ClickShoppingCart" description="Shopping Cart PAge" finished-at="2024-06-11T11:28:18 EEST" duration-ms="10467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickShoppingCart -->
+      </class> <!-- testcases.TC10_ShoppingCartPage -->
+    </test> <!-- SC10 - Shopping Page -->
+    <test started-at="2024-06-11T11:28:18 EEST" name="SC11 - Checkout Page" finished-at="2024-06-11T11:28:54 EEST" duration-ms="36283">
+      <class name="testcases.TC01_Login">
+        <test-method signature="LoginPageWithValidData_P()[pri:1, instance:testcases.TC01_Login@3857f613]" started-at="2024-06-11T11:28:25 EEST" name="LoginPageWithValidData_P" description="Check Login Page With Valid Data" finished-at="2024-06-11T11:28:29 EEST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageWithValidData_P -->
+      </class> <!-- testcases.TC01_Login -->
+      <class name="testcases.TC0_HomePage">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC0_HomePage@489115ef]" started-at="2024-06-11T11:28:18 EEST" name="setupDriver" finished-at="2024-06-11T11:28:21 EEST" duration-ms="3328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="CheckLoginLinks()[pri:1, instance:testcases.TC0_HomePage@489115ef]" started-at="2024-06-11T11:28:21 EEST" name="CheckLoginLinks" description="Check Login Links " finished-at="2024-06-11T11:28:25 EEST" duration-ms="4016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC0_HomePage@489115ef]" started-at="2024-06-11T11:28:54 EEST" name="tearDown" finished-at="2024-06-11T11:28:54 EEST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC0_HomePage -->
+      <class name="testcases.TC10_ShoppingCartPage">
+        <test-method signature="ClickShoppingCart()[pri:1, instance:testcases.TC10_ShoppingCartPage@198b6731]" started-at="2024-06-11T11:28:29 EEST" name="ClickShoppingCart" description="Shopping Cart PAge" finished-at="2024-06-11T11:28:39 EEST" duration-ms="10188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickShoppingCart -->
+      </class> <!-- testcases.TC10_ShoppingCartPage -->
+      <class name="testcases.TC11_Checkout">
+        <test-method signature="selectCheckbox()[pri:1, instance:testcases.TC11_Checkout@7c6908d7]" started-at="2024-06-11T11:28:39 EEST" name="selectCheckbox" description="selectCheckbox" finished-at="2024-06-11T11:28:47 EEST" duration-ms="8159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCheckbox -->
+        <test-method signature="SelectCheckoutButton()[pri:2, instance:testcases.TC11_Checkout@7c6908d7]" started-at="2024-06-11T11:28:47 EEST" name="SelectCheckoutButton" description="Select Checkout " finished-at="2024-06-11T11:28:54 EEST" duration-ms="6823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCheckoutButton -->
+      </class> <!-- testcases.TC11_Checkout -->
+    </test> <!-- SC11 - Checkout Page -->
+    <test started-at="2024-06-11T11:28:54 EEST" name="SC12 - Billing Page" finished-at="2024-06-11T11:29:56 EEST" duration-ms="61602">
+      <class name="testcases.TC01_Login">
+        <test-method signature="LoginPageWithValidData_P()[pri:1, instance:testcases.TC01_Login@bcec361]" started-at="2024-06-11T11:29:01 EEST" name="LoginPageWithValidData_P" description="Check Login Page With Valid Data" finished-at="2024-06-11T11:29:05 EEST" duration-ms="3589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageWithValidData_P -->
+      </class> <!-- testcases.TC01_Login -->
+      <class name="testcases.TC0_HomePage">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC0_HomePage@4e08711f]" started-at="2024-06-11T11:28:54 EEST" name="setupDriver" finished-at="2024-06-11T11:28:57 EEST" duration-ms="2532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="CheckLoginLinks()[pri:1, instance:testcases.TC0_HomePage@4e08711f]" started-at="2024-06-11T11:28:57 EEST" name="CheckLoginLinks" description="Check Login Links " finished-at="2024-06-11T11:29:01 EEST" duration-ms="4369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC0_HomePage@4e08711f]" started-at="2024-06-11T11:29:56 EEST" name="tearDown" finished-at="2024-06-11T11:29:56 EEST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC0_HomePage -->
+      <class name="testcases.TC10_ShoppingCartPage">
+        <test-method signature="ClickShoppingCart()[pri:1, instance:testcases.TC10_ShoppingCartPage@26794848]" started-at="2024-06-11T11:29:05 EEST" name="ClickShoppingCart" description="Shopping Cart PAge" finished-at="2024-06-11T11:29:15 EEST" duration-ms="10348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickShoppingCart -->
+      </class> <!-- testcases.TC10_ShoppingCartPage -->
+      <class name="testcases.TC12_BillingAddress">
+        <test-method signature="enterBillingData()[pri:1, instance:testcases.TC12_BillingAddress@3d285d7e]" started-at="2024-06-11T11:29:30 EEST" name="enterBillingData" description="Fill Billing Data" finished-at="2024-06-11T11:29:49 EEST" duration-ms="18891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterBillingData -->
+        <test-method signature="successOrder()[pri:2, instance:testcases.TC12_BillingAddress@3d285d7e]" started-at="2024-06-11T11:29:49 EEST" name="successOrder" description="Success Order" finished-at="2024-06-11T11:29:56 EEST" duration-ms="6632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successOrder -->
+      </class> <!-- testcases.TC12_BillingAddress -->
+      <class name="testcases.TC11_Checkout">
+        <test-method signature="selectCheckbox()[pri:1, instance:testcases.TC11_Checkout@302552ec]" started-at="2024-06-11T11:29:15 EEST" name="selectCheckbox" description="selectCheckbox" finished-at="2024-06-11T11:29:23 EEST" duration-ms="8170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCheckbox -->
+        <test-method signature="SelectCheckoutButton()[pri:2, instance:testcases.TC11_Checkout@302552ec]" started-at="2024-06-11T11:29:23 EEST" name="SelectCheckoutButton" description="Select Checkout " finished-at="2024-06-11T11:29:30 EEST" duration-ms="6814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCheckoutButton -->
+      </class> <!-- testcases.TC11_Checkout -->
+    </test> <!-- SC12 - Billing Page -->
+  </suite> <!-- Nop-Commerce Project -->
+</testng-results>

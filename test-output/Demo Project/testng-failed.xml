@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Project]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value=""/>
+  <test thread-count="5" name="SC1-Check Login link on chrome(failed)">
+    <classes>
+      <class name="testcases.TC01_HomePage">
+        <methods>
+          <include name="CheckLoginLinks"/>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- testcases.TC01_HomePage -->
+    </classes>
+  </test> <!-- SC1-Check Login link on chrome(failed) -->
+  <test thread-count="5" name="SC1-Check Register on Chrome(failed)">
+    <classes>
+      <class name="testcases.TC01_HomePage">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="CheckRegisterLinks"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC01_HomePage -->
+    </classes>
+  </test> <!-- SC1-Check Register on Chrome(failed) -->
+</suite> <!-- Failed suite [Demo Project] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Nop Commerce Testcases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SC7-Logged user could select Random Categories(failed)">
+    <classes>
+      <class name="testcases.TC07_Category">
+        <methods>
+          <include name="ChooseRandomCategory"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.TC07_Category -->
+    </classes>
+  </test> <!-- SC7-Logged user could select Random Categories(failed) -->
+</suite> <!-- Failed suite [Nop Commerce Testcases] -->

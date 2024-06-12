@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nop-Commerce Project">
+    <parameter name="browser" value="Firefox"/>
+    <test name="SC1-Check Login and Register Tabs">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckRegisterLinks()"/>
+                </methods>
+            </class>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckLoginLinks()"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SC2-Check Register New User on chrome">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckRegisterLinks()"/>
+                </methods>
+            </class>
+            <class name="testcases.TC02_Registration">
+                <methods>
+                    <include name="registerNewUserWithValidData_P()"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SC3-Check Login With Valid Credentials ">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckLoginLinks()"/>
+                </methods>
+            </class>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="LoginPageWithValidData_P()"/>
+                </methods>
+            </class>
+            <class name="testcases.TC_Logout">
+                <methods>
+                    <include name="LogoutPage()"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SC4-Check Search Criteria ">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckLoginLinks()"/>
+                </methods>
+            </class>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="LoginPageWithValidData_P()"/>
+                </methods>
+            </class>
+            <class name="testcases.TC03_SearchFunction">
+                <methods>
+                    <include name="SearchProducts()"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SC5-Check Forget Password Link  ">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckLoginLinks()"/>
+                </methods>
+            </class>
+            <class name="testcases.TC04_ForgetPassword">
+                <methods>
+                    <include name="CheckPasswordLink()"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="SC6-Check Recover Email ">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckLoginLinks()"/>
+                </methods>
+            </class>
+            <class name="testcases.TC04_ForgetPassword">
+                <methods>
+                    <include name="CheckForgetPasswordLink()"/>
+                </methods>
+            </class>
+            <class name="testcases.TC04_RecoverPassword">
+                <methods>
+                    <include name="RecoverPassword()"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

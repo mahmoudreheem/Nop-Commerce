@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nop-Commerce Project">
+    <parameter name="browser" value="firefox"/>
+    <test name="SC7-Select Book Category">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckRegisterLinks"/>
+                </methods>
+            </class>
+            <class name="testcases.TC02_Registration">
+                <methods>
+                    <include name="registerNewUserWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC05_Category">
+                <methods>
+                    <include name="ChooseCategory"/>
+                </methods>
+            </class>
+            <class name="testcases.TC07_SelectCertainBook">
+                <methods>
+                    <include name="selectBook"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="SC8 - Add to wishlist">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckLoginLinks"/>
+                </methods>
+            </class>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="LoginPageWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC05_Category">
+                <methods>
+                    <include name="ChooseCategory"/>
+                </methods>
+            </class>
+            <class name="testcases.TC07_SelectCertainBook">
+                <methods>
+                    <include name="selectBook"/>
+                </methods>
+            </class>
+            <class name="testcases.TC08_AddToWishList">
+                <methods>
+                    <include name="checkAddWishList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SC9 - Add to Cart">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckLoginLinks"/>
+                </methods>
+            </class>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="LoginPageWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC05_Category">
+                <methods>
+                    <include name="ChooseCategory"/>
+                </methods>
+            </class>
+            <class name="testcases.TC07_SelectCertainBook">
+                <methods>
+                    <include name="selectBook"/>
+                </methods>
+            </class>
+            <class name="testcases.TC09_AddToCart">
+                <methods>
+                    <include name="AddToCard"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SC10 - Shopping Page">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckLoginLinks"/>
+                </methods>
+            </class>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="LoginPageWithValidData_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.TC10_ShoppingCartPage">
+                <methods>
+                    <include name="ClickShoppingCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SC11 - Checkout Page">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckLoginLinks"/>
+                </methods>
+            </class>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="LoginPageWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC10_ShoppingCartPage">
+                <methods>
+                    <include name="ClickShoppingCart"/>
+                </methods>
+            </class>
+            <class name="testcases.TC11_Checkout">
+                <methods>
+                    <include name="selectCheckbox"/>
+                    <include name="SelectCheckoutButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="SC12 - Billing Page">
+        <classes>
+            <class name="testcases.TC0_HomePage">
+                <methods>
+                    <include name="CheckLoginLinks"/>
+                </methods>
+            </class>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="LoginPageWithValidData_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC10_ShoppingCartPage">
+                <methods>
+                    <include name="ClickShoppingCart"/>
+                </methods>
+            </class>
+            <class name="testcases.TC11_Checkout">
+                <methods>
+                    <include name="selectCheckbox"/>
+                    <include name="SelectCheckoutButton"/>
+                </methods>
+            </class>
+            <class name="testcases.TC12_BillingAddress">
+                <methods>
+                    <include name="enterBillingData"/>
+                    <include name="successOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
